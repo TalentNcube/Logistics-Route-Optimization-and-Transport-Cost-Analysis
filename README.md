@@ -3,6 +3,7 @@ This project focuses on analyzing transportation costs and optimizing delivery r
 
 
 #Transport Cost calculation
+
 <img width="244" height="64" alt="transport cost calculation" src="https://github.com/user-attachments/assets/bb280d3e-f9b1-4f8a-ac12-9c6de3ab0b3a" />
 
 For locations such as “52” and “52 Mine,” the 30-ton truck is cheaper (12.60) compared to the 20-ton truck (14.40). This means using the larger truck is the more cost-efficient option for these routes.
@@ -12,6 +13,7 @@ Deliveries to 52 cost around 12.60, which is very low.
 Deliveries to Banket cost over 5191, which is much higher.
 
 #Optimal Truck Assignment (Hungarian Algorithm)
+
 <img width="185" height="33" alt="Hungarian Algorinthm" src="https://github.com/user-attachments/assets/6127d318-4074-4ec7-af8f-f1e13b169bb6" />
 
 This result shows the best truck choice for delivering to each area in order to keep transportation costs as low as possible.
@@ -23,6 +25,7 @@ In this case, the smaller truck is cheaper to operate for that route.
 The analysis shows that different locations may require different truck sizes to minimize cost. Instead of using the same truck for all deliveries, the system selects the most economical vehicle for each area
 
 #Shortest Path Algorithm (Dijkstra)
+
 <img width="155" height="23" alt="Shortest path Algorithm" src="https://github.com/user-attachments/assets/d5299dff-4876-486a-a328-441f46e7fd26" />
 
 This result shows the most efficient route between two delivery locations.
@@ -51,6 +54,7 @@ Key Insight
 Instead of sending one truck to every location separately, the system groups nearby locations into routes for each truck
 
 #Route Distance calculation
+
 <img width="114" height="31" alt="Route distance calculation" src="https://github.com/user-attachments/assets/adc56dbf-2b35-4777-a9d5-72fbe5cdd69f" />
 
 These results show the total travel distance each truck will cover to complete its assigned deliveries.
@@ -79,6 +83,7 @@ Simple Summary
 The visualization helps logistics managers quickly see which trucks travel the most and which travel the least, making it easier to improve route planning, reduce transport costs, and manage the fleet more efficiently.
 
 #Overall Transport cost analysis
+
 <img width="197" height="22" alt="transport cost analysis" src="https://github.com/user-attachments/assets/03aab734-5efa-4fb2-827e-59c1450da9de" />
 
 These results summarize the overall transportation spending for all deliveries in the logistics operation.
